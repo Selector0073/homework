@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Linux file system</title>
+    </head>
+    <body>
+        <p>
+            <strong>/bin</strong> is the <abbr title="File folder">directory</abbr> that contains binaries, that is, some of the applications and programs you can run. You will find the ls program mentioned above in this directory, as well as other basic tools for making and removing files and directories, moving them around, and so on. There are more bin directories in other parts of the file system tree, but we’ll be talking about those in a minute.
+        </p>
+        <br>
+        <p>
+            The <abbr title="system directory">/boot</abbr> directory contains files required for starting your system. Do I have to say this? Okay, I’ll say it: <strong>DO NOT TOUCH!</strong>. If you mess up one of the files in here, you may not be able to run your Linux and it is a pain to repair. On the other hand, don’t worry too much about destroying your system by accident: you have to have superuser privileges to do that.
+        </p>
+        <br>
+        <p>
+            <strong>/etc</strong> is the <abbr title="IDK another file folder">directory</abbr> where names start to get confusing. /etc gets its name from the earliest Unixes and it was literally “et cetera” because it was the dumping ground for system files administrators were not sure where else to put.
+        </p>
+    </body>
+</html>
