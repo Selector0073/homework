@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Головна сторінка</title>
+        <style>
+            body { 
+                font-family: Arial, sans-serif; 
+                padding: 20px; 
+            }
+
+            ul { 
+                list-style: none; 
+                padding-left: 0; 
+            }
+
+            li { 
+                margin: 10px 0; 
+            }
+
+            a { text-decoration: none; 
+                color: #007bff; 
+            }
+
+            a:hover { 
+                text-decoration: underline; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Доступні сторінки</h1>
+        <ul id="pages-list"></ul>
+
+        <script>
+            // Список підпапок або шляхів до index.html
+            // Його можна оновлювати при додаванні нових сторінок
+            const pages = [
+                '07-08-2025/index.html',
+                '09-08-2025/index.html',
+                '13-08-2025/index.html',
+                'index.html' // головна сторінка теж
+            ];
+
+            const list = document.getElementById('pages-list');
+
+            pages.forEach(page => {
+                const li = document.createElement('li');
+                const link = document.createElement('a');
+                link.href = page;
+                link.textContent = page.replace(/\/index\.html$/, ''); // прибираємо index.html для зручності
+                li.appendChild(link);
+                list.appendChild(li);
+            });
+        </script>
+    </body>
+</html>

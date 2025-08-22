@@ -1,0 +1,30 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: darkgray;
+    color: wheat;
+}
+
+#logo {
+    height: 200px;
+    border: 10px solid grey;
+}
+
+body {
+    text-align: center;
+}
+
+#navig {
+    list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 200px;
+  padding: 3px;
+  background-color: grey;
+  color: white;
+}
+
+a:hover {
+    color: darkblue;
+}
