@@ -1,0 +1,41 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#center {
+    text-align: center;
+}
+
+#lazaniya {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+p, img, h1, h2, h3, table {
+    margin-left: 1%;
+}
+
+#intro {
+    text-align: center;
+}
