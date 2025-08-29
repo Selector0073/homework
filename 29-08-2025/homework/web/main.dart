@@ -40,14 +40,14 @@ void main() {
     int newX = playerX;
     int newY = playerY;
 
-    String? key = event.key;
-    if (key == null) return;
+    String? code = event.code;
+    if (code == null) return;
 
-    switch(key) {
-      case 'w': newY--; break;
-      case 's': newY++; break;
-      case 'a': newX--; break;
-      case 'd': newX++; break;
+    switch(code) {
+      case 'KeyW': newY--; break;
+      case 'KeyS': newY++; break;
+      case 'KeyA': newX--; break;
+      case 'KeyD': newX++; break;
       default: return;
     }
 

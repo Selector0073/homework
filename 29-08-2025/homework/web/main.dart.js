@@ -4769,28 +4769,28 @@
   };
   A.main_closure.prototype = {
     call$1($event) {
-      var t1, newX, newY, key, newY0, newX0, t2, t3, targetCell, _this = this;
+      var t1, newX, newY, code, newY0, newX0, t2, t3, targetCell, _this = this;
       type$.KeyboardEvent._as($event);
       t1 = _this._box_0;
       newX = t1.playerX;
       newY = t1.playerY;
-      key = $event.key;
-      if (key == null)
+      code = $event.code;
+      if (code == null)
         return;
-      switch (key) {
-        case "w":
+      switch (code) {
+        case "KeyW":
           newY0 = newY - 1;
           newX0 = newX;
           break;
-        case "s":
+        case "KeyS":
           newY0 = newY + 1;
           newX0 = newX;
           break;
-        case "a":
+        case "KeyA":
           newX0 = newX - 1;
           newY0 = newY;
           break;
-        case "d":
+        case "KeyD":
           newX0 = newX + 1;
           newY0 = newY;
           break;
