@@ -36,15 +36,15 @@
         
         <script>
             const pages = [
-                '07-08-2025/',
-                '09-08-2025/',
-                '13-08-2025/',
-                '14-08-2025/',
-                '19-08-2025/',
-                '22-08-2025/',
-                '25-08-2025-Practical/',
-                '25-08-2025/',
-                '28-08-2025/'
+                '07-08-2025',
+                '09-08-2025',
+                '13-08-2025',
+                '14-08-2025',
+                '19-08-2025',
+                '22-08-2025',
+                '25-08-2025-Practical',
+                '25-08-2025',
+                '29-08-2025/homework/web'
             ];
         
             const list = document.getElementById('pages-list');
@@ -55,9 +55,10 @@
                 const button = document.createElement('button');
                 button.type = 'button';
                 button.className = 'btn btn-secondary';
-                button.textContent = page.replace(/\/$/, '');
+                //button.textContent = page.replace(/\/$/, '');
+                button.textContent = page.replace('/homework/web', '');
                 button.onclick = () => {
-                    window.location.href = page + 'index.html';
+                    window.location.href = page + '/index.html';
                 };
                 list.appendChild(button);
                 list.appendChild(li);
