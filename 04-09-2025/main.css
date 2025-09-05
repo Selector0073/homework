@@ -1,0 +1,32 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #1d2a35;
+    color: #dddddd;
+}
+
+main {
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #0d1721;
+    color: white;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#exampleInputEmail1, #exampleInput, #exampleFormControlTextarea1 {
+    background-color: #1d2a35;
+    color: white;
+}
