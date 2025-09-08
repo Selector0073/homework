@@ -1,0 +1,26 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #1d2a35;
+    color: #dddddd;
+}
+
+main {
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #0d1721;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#exampleInputEmail1, #exampleInput, #exampleFormControlTextarea1, .form-select, #inputPassword5 {
+    background-color: #1d2a35;
+    color: white;
+}
